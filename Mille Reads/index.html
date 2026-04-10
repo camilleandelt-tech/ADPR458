@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mille Reads — she's got a book for every situation." />
+  <title>Mille Reads</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header class="header">
+    <!-- CSS-only hamburger: hidden checkbox drives the open/close state -->
+    <input type="checkbox" id="nav-toggle" class="nav-checkbox" />
+    <nav class="nav">
+      <label for="nav-toggle" class="nav-hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <ul class="nav-list">
+        <li><a href="#reviews"  class="nav-link">Reviews</a></li>
+        <li><a href="#tbr"      class="nav-link">TBR</a></li>
+        <li><a href="#shop"     class="nav-link">About</a></li>
+        <li><a href="#contact"  class="nav-link">Connect</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1 class="hero-title">Mille Reads</h1>
+        <p class="hero-sub">she's got a book for every situation</p>
+      </div>
+      <div class="hero-img-wrap">
+        <img
+          src="images/header_image.png"
+          alt="Mille holding a stack of books"
+          class="hero-img"
+          loading="eager"
+          width="1200"
+          height="500"
+        />
+        <!-- "Currently Reading" card overlaid on photo -->
+        <div class="currently-reading">
+          <img
+            src="images/in her own league.jpeg"
+            alt="In Her Own League by Liz Tomforde"
+            class="cr-cover"
+            loading="eager"
+            width="160"
+            height="220"
+          />
+          <div class="cr-text">
+            <p class="cr-label">currently reading:</p>
+            <p class="cr-book-title">In Her Own League by Liz Tomforde</p>
+            <p class="cr-label">tropes:</p>
+            <p class="cr-tropes">age gap, workplace romance, enemies to lovers</p>
+            <p class="cr-label">what's it about?</p>
+            <p class="cr-blurb">In Her Own League by Liz Tomforde is a workplace romance following Reese Remington, the first female owner of the professional baseball team, the Windy City Warriors. While navigating a male-dominated industry and internal sabotage, she develops a deep connection with the team's protective manager, Emmett "Monty" Montgomery, forcing them to balance their intense professional friction with growing personal feelings.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== BOOKS OF THE MONTH ========== -->
+    <section class="bom" id="shop">
+      <h2 class="section-heading">Books of the Month</h2>
+      <div class="bom-grid">
+
+        <div class="bom-card">
+          <img src="images/inyourdreams.jpeg" alt="In Your Dreams by Sarah Adams" class="bom-cover" loading="lazy" width="200" height="290" />
+          <p class="bom-rating">4.5 ⭐</p>
+        </div>
+
+        <div class="bom-card">
+          <img src="images/PDOS.jpeg" alt="Picking Daisies on Sundays" class="bom-cover" loading="lazy" width="200" height="290" />
+          <p class="bom-rating">4.5 ⭐</p>
+        </div>
+
+        <div class="bom-card">
+          <img src="images/wos.jpeg" alt="Wings of Starlight by Allison Saft" class="bom-cover" loading="lazy" width="200" height="290" />
+          <p class="bom-rating">4.5 ⭐</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== ABOUT / HI I'M MILLE ========== -->
+    <section class="about" id="about">
+      <div class="about-inner">
+
+        <div class="about-bio">
+          <h2 class="about-heading">Hi, I'm Mille!</h2>
+          <p class="about-intro">I am a book lover, content creator and your go-to for cozy romance recommendations!</p>
+          <ul class="about-list">
+            <li>🤍 genres: romance, fantasy, memoirs and self help</li>
+            <li>🤍 I love a good latte!</li>
+            <li>🤍 big fan of harry styles, taylor swift, del water gap and 1d</li>
+            <li>🤍 I am a broadcast production and advertising and public relations major</li>
+            <li>🤍 I love travel and studied abroad in scotland</li>
+            <li>🤍 open to brand collabs &amp; book partnerships</li>
+          </ul>
+          <a href="#contact" class="about-btn">work with me →</a>
+        </div>
+
+        <div class="about-photo-wrap">
+          <img
+            src="images/mille.JPG"
+            alt="Mille smiling while holding books"
+            class="about-photo"
+            loading="lazy"
+            width="300"
+            height="380"
+          />
+        </div>
+
+      </div>
+    </section>
+
+<!-- ========== BOOKS I WILL ALWAYS RECOMMEND ========== -->
+<section class="recs" id="reviews">
+  <h2 class="recs-heading">Books I will Always Recommend</h2>
+  <div class="recs-grid">
+
+    <div class="rec-card">
+      <img src="images/eikal.png" alt="Everything I Know About Love — Dolly Alderton" class="rec-cover" loading="lazy" />
+    </div>
+
+    <div class="rec-card">
+      <img src="images/beach read.png" alt="Beach Read — Emily Henry" class="rec-cover" loading="lazy" />
+    </div>
+
+    <div class="rec-card">
+      <img src="images/bttm.png" alt="Better Than the Movies — Lynn Painter" class="rec-cover" loading="lazy" />
+    </div>
+
+  </div>
+</section>
+
+    <!-- ========== READING TRACKER ========== -->
+    <section class="tracker" id="tbr">
+      <h2 class="section-heading dark">Reading Tracker</h2>
+      <p class="tracker-sub">10/50 books read in 2026!</p>
+
+      <div class="tracker-bar-wrap">
+        <div class="tracker-bar-bg">
+          <div class="tracker-bar-fill"></div>
+        </div>
+      </div>
+
+      <div class="tbr-box">
+        <h3 class="tbr-heading">tbr</h3>
+        <ul class="tbr-list">
+          <li class="tbr-row">
+            <span class="tbr-label reading">currently reading:</span>
+            <span class="tbr-book">Just Friends by Haley Pham</span>
+          </li>
+          <li class="tbr-row">
+            <span class="tbr-label">up next:</span>
+            <span class="tbr-book">The Anthropocene Reviewed by John Green</span>
+          </li>
+          <li class="tbr-row">
+            <span class="tbr-label">up next:</span>
+            <span class="tbr-book">Binding Thirteen by Chloe Walsh</span>
+          </li>
+          <li class="tbr-row">
+            <span class="tbr-label">up next:</span>
+            <span class="tbr-book">In Her Own League by Liz Tomforde</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact" id="contact">
+      <h2 class="contact-heading">Let's Get In Touch</h2>
+      <form class="contact-form" action="#" method="post">
+        <input  type="text"  name="name"    placeholder="Your name:"    class="contact-input" required />
+        <input  type="email" name="email"   placeholder="Your email:"   class="contact-input" required />
+        <textarea            name="message" placeholder="Your message:" class="contact-textarea" rows="6" required></textarea>
+        <button type="submit" class="contact-btn">Send</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="follow">
+    <h2 class="footer-heading">Follow me!</h2>
+    <div class="footer-icons">
+      <a href="https://youtube.com/@camilleandelt" target="_blank" rel="noopener" aria-label="YouTube">
+        <img src="images/youtube 1.png"    alt="YouTube"    class="footer-icon" loading="lazy" />
+      </a>
+      <a href="https://www.instagram.com/mille_readss/" target="_blank" rel="noopener" aria-label="Instagram">
+        <img src="images/insta 1.png"      alt="Instagram"  class="footer-icon" loading="lazy" />
+      </a>
+      <a href="https://www.tiktok.com/@mille_reads" target="_blank" rel="noopener" aria-label="TikTok">
+        <img src="images/tiktok 1.png"     alt="TikTok"     class="footer-icon" loading="lazy" />
+      </a>
+      <a href="https://app.thestorygraph.com/stats/millereads" target="_blank" rel="noopener" aria-label="StoryGraph">
+        <img src="images/storygraph 1.png" alt="StoryGraph" class="footer-icon" loading="lazy" />
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
