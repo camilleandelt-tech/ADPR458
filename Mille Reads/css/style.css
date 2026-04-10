@@ -1,14 +1,4 @@
-/* ================================================
-   MILLE READS — style.css
-   Fonts:  Playfair Display (headings) + Lato (body)
-   Colors: #fdf5f0 cream · #f9e8e8 blush · #3d2b1f dark brown
-           #6b4438 brown · #d8a4a4 rose · #c4a882 tan
-   No :root variables — hex codes used directly.
-   No JavaScript — hamburger uses CSS checkbox trick.
-================================================ */
 
-
-/* ── RESET ── */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
