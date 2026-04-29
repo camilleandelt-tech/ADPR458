@@ -712,7 +712,11 @@ body {
 h2 {
   font-size: 24px;
 }
-
+p {
+  font-size: 14px;
+  font-family:'Lato', sans-serif;
+  color:#f0e0d8;
+}
 h2 small {
   opacity: 0.7;
   font-weight: normal;
